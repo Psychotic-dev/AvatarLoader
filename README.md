@@ -13,5 +13,3 @@ Paste the avatarLoader.lua
 Change the ID (Roblox ID)
 
 Enjoy
-
-# Known Issues
