@@ -53,19 +53,20 @@ for key,table in pairs(info) do
 		end
 elseif key == 'bodyColors' then
 for Part,Col in pairs(table) do
-if Part == 'torsoColorId' then
-Char.Torso.BrickColor = BrickColor.new(Col)
-elseif Part == 'rightArmColorId' then
-Char['Right Arm'].BrickColor = BrickColor.new(Col)
-elseif Part == 'leftArmColorId' then
-Char['Left Arm'].BrickColor = BrickColor.new(Col)
-elseif Part == 'rightLegColorId' then
-Char['Right Leg'].BrickColor = BrickColor.new(Col)
-elseif Part == 'leftLegColorId' then
-Char['Left Leg'].BrickColor = BrickColor.new(Col)
-elseif Part == 'headColorId' then
-Char.Head.BrickColor = BrickColor.new(Col)
-end
-end
-end
-end
+	if Part == 'torsoColorId' then
+	Char.Torso.BrickColor = BrickColor.new(Col)
+	elseif Part == 'rightArmColorId' then
+	Char['Right Arm'].BrickColor = BrickColor.new(Col)
+	elseif Part == 'leftArmColorId' then
+	Char['Left Arm'].BrickColor = BrickColor.new(Col)
+	elseif Part == 'rightLegColorId' then
+	Char['Right Leg'].BrickColor = BrickColor.new(Col)
+	elseif Part == 'leftLegColorId' then
+	Char['Left Leg'].BrickColor = BrickColor.new(Col)
+	elseif Part == 'headColorId' then
+	Char.Head.BrickColor = BrickColor.new(Col)
+			-- hi gab coder here
+				end
+			end
+		end
+	end
